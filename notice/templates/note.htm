@@ -1,0 +1,9 @@
+{% for notice in notices.all %}
+    <div>
+        <h1>{{notice.title}}</h1>
+        <p>{{notice.writer}}</p>
+        <p>{{notice.student_id}}</p>
+        <p>{{notice.pub_date}}</p>
+        <p>{{notice.body}}</p>
+    </div>
+{% endfor %}
